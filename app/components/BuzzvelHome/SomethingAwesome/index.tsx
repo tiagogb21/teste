@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Button } from "../../ui/Button";
-import { Title } from "../../ui/Title";
+import { Button } from "../ui/Button";
+import { Title } from "../ui/Title";
 import { buttons, peopleInfo } from "@/app/utils/const";
 
 export const SomethingAwesome = () => {
@@ -22,8 +22,8 @@ export const SomethingAwesome = () => {
   };
 
   return (
-    <div className="text-center px-4 flex flex-col gap-16 bg-project-purple py-12">
-      <div className="text-white">
+    <div className="text-center px-4 flex flex-col gap-16 lg:p-20 bg-project-purple py-12">
+      <div className="text-white lg:flex gap-60 items-center">
         <Title
           subtitle="Join other Sun harvesters"
           subtitleColor="yellow"

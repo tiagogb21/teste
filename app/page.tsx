@@ -1,7 +1,7 @@
 import { Footer } from "./components/BuzzvelHome/common/Footer";
 import { Header } from "./components/BuzzvelHome/common/Header";
-import { PowerAvailable } from "./components/BuzzvelHome/common/PowerAvailable";
-import { SomethingAwesome } from "./components/BuzzvelHome/common/SomethingAwesome";
+import { PowerAvailable } from "./components/BuzzvelHome/PowerAvailable";
+import { SomethingAwesome } from "./components/BuzzvelHome/SomethingAwesome";
 import { PersonalizedServices } from "./components/BuzzvelHome/PersonalizedServices";
 import { PickTheSun } from "./components/BuzzvelHome/PickTheSun";
 import { PowerfulFeatures } from "./components/BuzzvelHome/PowerfulFeatures";

@@ -24,7 +24,7 @@ export const Header = () => {
         </div>
         <div className="flex items-center">
             <div className="hidden lg:flex gap-4">
-              <a href={`tel:+55${phone}`} className="flex items-center px-2 py-3 gap-4">
+              <a href={`tel:+55${phone}`} className="text-project-blue flex items-center px-2 py-3 gap-4">
                 <Image src="/headset.svg" alt="headset" width={24} height={24} />
                 {phone}
               </a>

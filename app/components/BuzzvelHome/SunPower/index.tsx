@@ -5,7 +5,7 @@ export const SunPower = () => {
   return (
     <div className="flex flex-col gap-16 px-4 py-12 lg:px-20 lg:gap-32">
       <div className="text-center flex flex-col lg:w-[37.5rem] gap-6 lg:-mt-56 lg:items-start">
-        <h1 className="font-bold text-[2.5rem] lg:text-start lg:text-[4.5rem]">Get the Sun to Power Your Home</h1>
+        <h1 className="font-bold text-[2.5rem] lg:text-start lg:text-[4.5rem] lg:leading-[4.95rem]">Get the Sun to Power Your Home</h1>
         <h2 className="text-lg lg:text-2xl lg:text-start">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</h2>
         <Button />
       </div>

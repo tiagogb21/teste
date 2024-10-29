@@ -56,25 +56,21 @@ export const peopleInfo = [
 export const powerfulContent = [
   {
     id: 1,
-    icon: <TbSquareNumber1 size={64} />,
     title: "Erat sit",
     text: "Id quis lectus pharetra, ultricies integer montes, amet, gravida consectetur. Nunc convallis fringilla nisl magna sagittis.",
   },
   {
     id: 2,
-    icon: <TbSquareNumber2 size={64} />,
     title: "Ullamcorper arcu",
     text: "Ipsum at id hendrerit amet faucibus commodo quam nullam. Lectus auctor habitant duis dictum.",
   },
   {
     id: 3,
-    icon: <TbSquareNumber3 size={64} />,
     title: "Et pellentesque",
     text: "Mi vitae, massa eu molestie massa euismod volutpat condimentum. Blandit molestie ullamcorper hendrerit purus lorem vulputate.",
   },
   {
     id: 4,
-    icon: <TbSquareNumber4 size={64} />,
     title: "Amet egestas",
     text: "Elementum, libero, lacus, vel ullamcorper at velit id. Malesuada velit et, ullamcorper malesuada amet, felis.",
   },
@@ -83,25 +79,21 @@ export const powerfulContent = [
 export const personalizedServices = [
   {
     id: 1,
-    icon: <TbSquareNumber1 size={64} />,
     title: "Et mauris",
     text: "Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique.",
   },
   {
     id: 2,
-    icon: <TbSquareNumber2 size={64} />,
     title: "Eget sit",
     text: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
   },
   {
     id: 3,
-    icon: <TbSquareNumber3 size={64} />,
     title: "Imperdiet pellentesque",
     text: "Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla.",
   },
   {
     id: 4,
-    icon: <TbSquareNumber4 size={64} />,
     title: "Non libero",
     text: "Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.",
   },
