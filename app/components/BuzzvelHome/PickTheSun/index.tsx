@@ -26,7 +26,7 @@ export const PickTheSun = () => {
         className="lg:w-[95rem]"
       />
       <Image
-        className="absolute -right-24 top-4 lg:top-12 -z-10 lg:w-[37.25rem]"
+        className="absolute -right-8 top-4 lg:top-12 -z-10 lg:w-[37.25rem]"
         src="/Ellipse-Purple.png"
         alt="iPhone"
         width={150}

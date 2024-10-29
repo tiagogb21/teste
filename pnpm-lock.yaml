@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      embla-carousel-autoplay:
+        specifier: ^8.3.1
+        version: 8.3.1(embla-carousel@8.3.1)
+      embla-carousel-react:
+        specifier: ^8.3.1
+        version: 8.3.1(react@19.0.0-rc-69d4b800-20241021)
+      framer-motion:
+        specifier: 12.0.0-alpha.0
+        version: 12.0.0-alpha.0(react-dom@19.0.0-rc-69d4b800-20241021(react@19.0.0-rc-69d4b800-20241021))(react@19.0.0-rc-69d4b800-20241021)
       next:
         specifier: 15.0.1
         version: 15.0.1(react-dom@19.0.0-rc-69d4b800-20241021(react@19.0.0-rc-69d4b800-20241021))(react@19.0.0-rc-69d4b800-20241021)
@@ -611,6 +620,24 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
+  embla-carousel-autoplay@8.3.1:
+    resolution: {integrity: sha512-L8THF1AJJSQtlNa1wZ6lEKh/CiZssE3TsVFtabQNsS+pc1O1O/YTIYCC3khdQAztGMOBf3WfVDIY/4AIfQj3JQ==}
+    peerDependencies:
+      embla-carousel: 8.3.1
+
+  embla-carousel-react@8.3.1:
+    resolution: {integrity: sha512-gBY0zM+2ASvKFwRpTIOn2SLifFqOKKap9R/y0iCpJWS3bc8OHVEn2gAThGYl2uq0N+hu9aBiswffL++OYZOmDQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.1 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+
+  embla-carousel-reactive-utils@8.3.1:
+    resolution: {integrity: sha512-Js6rTTINNGnUGPu7l5kTcheoSbEnP5Ak2iX0G9uOoI8okTNLMzuWlEIpYFd1WP0Sq82FFcLkKM2oiO6jcElZ/Q==}
+    peerDependencies:
+      embla-carousel: 8.3.1
+
+  embla-carousel@8.3.1:
+    resolution: {integrity: sha512-DutFjtEO586XptDn4cwvBJwsR/8fMa4jUk5Jk2g+/elKgu8mdn0Z2sx33g4JskvbLc1/6P8Xg4QlfELGJFcP5A==}
+
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
@@ -809,6 +836,20 @@ packages:
   foreground-child@3.3.0:
     resolution: {integrity: sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==}
     engines: {node: '>=14'}
+
+  framer-motion@12.0.0-alpha.0:
+    resolution: {integrity: sha512-rw0+O0kqsSFPrYrSnHXrZTGAKteCj9D9HzDdHjJR8GyPWADLoQstgUYeSvLxrO3P+HlBfQtmu/SOsM9eLhKXtQ==}
+    peerDependencies:
+      '@emotion/is-prop-valid': '*'
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/is-prop-valid':
+        optional: true
+      react:
+        optional: true
+      react-dom:
+        optional: true
 
   fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
@@ -2203,6 +2244,22 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
+  embla-carousel-autoplay@8.3.1(embla-carousel@8.3.1):
+    dependencies:
+      embla-carousel: 8.3.1
+
+  embla-carousel-react@8.3.1(react@19.0.0-rc-69d4b800-20241021):
+    dependencies:
+      embla-carousel: 8.3.1
+      embla-carousel-reactive-utils: 8.3.1(embla-carousel@8.3.1)
+      react: 19.0.0-rc-69d4b800-20241021
+
+  embla-carousel-reactive-utils@8.3.1(embla-carousel@8.3.1):
+    dependencies:
+      embla-carousel: 8.3.1
+
+  embla-carousel@8.3.1: {}
+
   emoji-regex@8.0.0: {}
 
   emoji-regex@9.2.2: {}
@@ -2562,6 +2619,13 @@ snapshots:
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
+
+  framer-motion@12.0.0-alpha.0(react-dom@19.0.0-rc-69d4b800-20241021(react@19.0.0-rc-69d4b800-20241021))(react@19.0.0-rc-69d4b800-20241021):
+    dependencies:
+      tslib: 2.8.0
+    optionalDependencies:
+      react: 19.0.0-rc-69d4b800-20241021
+      react-dom: 19.0.0-rc-69d4b800-20241021(react@19.0.0-rc-69d4b800-20241021)
 
   fs.realpath@1.0.0: {}
 

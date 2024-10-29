@@ -1,6 +1,7 @@
+'use client'
+import Image from "next/image";
 import { powerfulContent } from "@/app/utils/const";
 import { Title } from "../ui/Title";
-import Image from "next/image";
 
 export const PowerfulFeatures = () => {
   return (
