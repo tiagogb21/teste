@@ -36,9 +36,7 @@ Clone o repositório:
 git clone https://github.com/SeuUsuario/ProjetoBuzzvel.git
 ```
 
-``` bash
 Instale as dependências:
-```
 
 ``` bash
 npm install
