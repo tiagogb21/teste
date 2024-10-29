@@ -1,5 +1,8 @@
 ## Projeto Buzzvel - Conversão de Design em Páginas Funcionais
 
+![LighthouseDesktop](./public/lighthouse-desktop.png.png)
+![LighthouseMobile](./public/lighthouse-mobile.png.png)
+
 Este projeto é uma implementação do design fornecido pela Buzzvel para a criação de páginas web e mobile responsivas com foco em performance, SEO, animações e atenção a detalhes de design. Desenvolvido em Next.js com SSR (Server-Side Rendering) para otimização de SEO e carregamento rápido.
 
 ## 📋 Índice
@@ -36,9 +39,7 @@ Clone o repositório:
 git clone https://github.com/SeuUsuario/ProjetoBuzzvel.git
 ```
 
-``` bash
 Instale as dependências:
-```
 
 ``` bash
 npm install
