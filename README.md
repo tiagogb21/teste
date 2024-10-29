@@ -36,7 +36,7 @@ Para rodar este projeto localmente:
 Clone o repositório:
 
 ``` bash
-git clone https://github.com/SeuUsuario/ProjetoBuzzvel.git
+git clone https://github.com/tiagogb21/teste.git
 ```
 
 Instale as dependências:
