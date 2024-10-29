@@ -1,5 +1,3 @@
-import { TbSquareNumber1, TbSquareNumber2, TbSquareNumber3, TbSquareNumber4 } from "react-icons/tb";
-
 export const phone = "555 818 282";
 
 export const buttons = [

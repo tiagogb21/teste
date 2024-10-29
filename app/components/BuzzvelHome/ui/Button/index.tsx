@@ -11,10 +11,6 @@ export const Button = ({
   subButton,
   color = "purple",
 }: ButtonProp) => {
-  const hoverColors = {
-    purple: "yellow",
-    yellow: "purple",
-  }
   const colors = color === "purple" ? `border-project-purple text-project-purple hover:text-project-yellow hover:bg-project-purple` : `border-project-yellow text-project-yellow hover:text-project-purple hover:bg-project-yellow`;
 
   return (
